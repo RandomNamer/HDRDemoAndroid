@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hdrplaybacktest.ui.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_check_hdr"
+        android:title="@string/action_check_dhr"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_enable_ffmpeg_metadata"
+        android:title="@string/enable_ffmpeg_metadata"
+        app:showAsAction="never"
+        android:checkable="true"
+        />
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HDR Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_check_dhr">HDR Capabilities</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="video_detail_frag_arg_bundle_name">VideoUri</string>
+    <string name="detail_frag_name">Video Details</string>
+    <string name="detail_frag_metadata_card_name">Video Metadata</string>
+    <string name="metadata_courtesy">Courtesy to FFmpegMediaMetadataRetriever by wseemann</string>
+    <string name="metadata_courtesy_link">https://github.com/wseemann/FFmpegMediaMetadataRetriever</string>
+    <string name="file_size">File Size  </string>
+    <string name="media_type">Media Type</string>
+    <string name="metadata_title">Metadata of the file</string>
+    <string name="enable_ffmpeg_metadata">Enable Native Metadata</string>
+    <string name="confirm_enable_metadata">Enable Retrieving Video Metadata via FFMpeg?</string>
+    <string name="confirm_enable_metadata_info">Try to retrieve metadata via FFMpeg may cause native crash, continue?</string>
+    <string name="play_options">Play</string>
+    <string name="select_play_source">Play by</string>
+    <string name="open_in_mediainfo">Open in MediaInfo</string>
+    <string name="open_with_exo">ExoPlayer</string>
+    <string name="open_with_vlc">VLC</string>
+    <string name="open_with_other">System Actions Select</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_exo_player">ExoPlayerActivity</string>
+
+</resources>

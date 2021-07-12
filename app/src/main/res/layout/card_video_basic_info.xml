@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp"
+    android:layout_marginVertical="10dp"
+    android:outlineAmbientShadowColor="@color/drkgry">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:id="@+id/detail_page_basic_card_cover_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/detail_page_basic_card_cover_iv"
+            >
+            <TextView
+                android:id="@+id/detail_page_basic_card_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                tools:text="TestTitle"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/detail_page_basic_card_info_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@tools:sample/lorem"
+                />
+            <Button
+                android:id="@+id/open_in_mediainfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_in_mediainfo"
+                android:backgroundTint="@color/drkblue"
+                android:drawableLeft="@drawable/ic_baseline_open_in_new_24"
+                android:drawableTint="@color/white"
+                android:drawablePadding="4dp"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
